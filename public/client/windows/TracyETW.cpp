@@ -5,6 +5,8 @@
 #include <thread>
 #include <stdio.h>
 
+#include "tracy/Tracy.hpp"
+
 namespace tracy { namespace etw {
 
 constexpr GUID NullGuid      = {};
