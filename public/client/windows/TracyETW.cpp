@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <thread>
 
+#include "tracy/Tracy.hpp"
+
 namespace tracy
 {
 namespace etw
